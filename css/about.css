@@ -1,0 +1,179 @@
+
+
+/*Selected menu
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------*/
+
+.menu-ativo {
+  text-decoration:underline;
+  text-decoration-style: double;
+}
+
+
+/*Below the header
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------*/
+
+.intro-about {
+  padding-top: 65px;
+  height: 215px;
+  background: url("/images/about/bg-intro.png") center;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.intro-about div{
+  width: 450px;
+  margin: 0 auto;
+}
+
+.intro-about h2 {
+  font-size: 45px;
+  color: white;
+  font-weight: normal;
+}
+
+.intro-about h2:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #ffffff;
+  margin: 5px auto 15px auto;
+}
+
+.intro-about p {
+  font-size: 20px;
+  color: white;
+  font-weight: normal;
+}
+/*section break
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------*/
+.logo-quebra{
+  padding-top: 45px;
+  padding-bottom: 45px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+/*
+who we are?
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------*/
+
+.who-we-are {
+  width: 1120px;
+  height: 386px;
+  margin: 0 auto;
+  display: flex    ;
+}
+
+.who-we-are h2 {
+  font-size: 30px;
+  font-weight: normal;
+  padding-bottom: 49px;
+  padding-top: 5px;
+}
+.who-we-are .text{
+  width: 680px;
+  height: 386px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 35px;
+}
+
+/*Operate in the areas:
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------*/
+.areas {
+  width: 100%;
+  height: 1206px;
+  background-color: #E1E1E1;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.areas > h2 {
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.areas .bloco {
+  width: 1120px;
+  height: 928px;
+  margin: 0 auto;
+}
+
+.areas .bloco .residencial,
+.areas .bloco .comercial,
+.areas .bloco .industrial {
+  width: 1136px;
+  height: 280px;
+  text-align: center;
+  margin-bottom: 44px;
+  display: flex;
+}
+
+.areas .bloco .residencial div,
+.areas .bloco .comercial div,
+.areas .bloco .industrial div{
+  width: 720px;
+  text-align: center;
+  background-color:white;
+  border-radius: 10px;
+}
+
+.areas .bloco .residencial div h2,
+.areas .bloco .comercial div h2,
+.areas .bloco .industrial div h2 {
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+.areas .bloco .residencial div h2:after,
+.areas .bloco .comercial div h2:after,
+.areas .bloco .industrial div h2:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background:black;
+  margin: 5px auto 15px auto;
+}
+
+.areas .bloco .residencial div p,
+.areas .bloco .comercial div p,
+.areas .bloco .industrial div p {
+  padding-top: 30px;
+  font-size: 20px;
+  width: 536px;
+  margin: 0 auto;
+}
+
+.areas a {
+  margin: 36px auto;
+  width: 135px;
+  font-size: 22px;
+  background-color: #74736F;
+  color: #ffffff;
+  border: 2px solid #efdcb9;
+  padding: 5px 40px;
+
+  display: flex;
+  justify-content: center;
+}
+.areas a:hover {
+  opacity: 80%;
+  color: #000000;
+  background: #efdcb9;
+ 
+}
+
+

@@ -1,0 +1,262 @@
+/*Selected menu
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------*/
+.menu-ativo {
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+
+/*Below the header
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------*/
+
+.intro-about {
+  padding-top: 65px;
+  height: 215px;
+  background: url("/images/about/bg-intro.png") center;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.intro-about div {
+  width: 450px;
+  margin: 0 auto;
+}
+
+.intro-about h2 {
+  font-size: 45px;
+  color: white;
+  font-weight: normal;
+}
+
+.intro-about h2:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #ffffff;
+  margin: 5px auto 15px auto;
+}
+
+.intro-about p {
+  font-size: 20px;
+  color: white;
+  font-weight: normal;
+}
+
+/*section break
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------*/
+.logo-quebra {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+/*search section
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------*/
+
+.search {
+  width: 1120px;
+  height: 165px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.search-options {
+  font-size: 20px;
+  width: 420px;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+
+.search-options a:nth-child(1) {
+  float: left;
+}
+
+.search-options a:nth-child(3) {
+  float: right;
+}
+
+.search-options a:nth-child(1):after {
+  content: "|";
+  margin-left: 20px;
+  display: inline-block;
+  width: 10px;
+  height: 3px;
+}
+
+.search-options a:nth-child(3):before {
+  content: "|";
+  margin-right: 20px;
+  display: inline-block;
+  width: 10px;
+  height: 3px;
+}
+
+.search-bar {
+  font-size: 20px;
+  width: 580px;
+  height: 40px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 10px;
+  border: 3px solid #e3e0e0;
+}
+
+.search-bar label img {
+  width: 35px;
+  height: 35px;
+  margin: 3px 3px;
+  float: left;
+  border-radius: 10px;
+  opacity: 30%;
+}
+
+.search-bar input {
+  width: 498px;
+  height: 35px;
+  margin: 3px auto;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 10px;
+}
+
+.search-bar button {
+  margin: 3px 3px;
+  padding-top: 2px;
+  float: right;
+  border-radius: 10px;
+  cursor: pointer;
+  opacity: 30%;
+  background-color: white;
+}
+.search-bar button img {
+  width: 35px;
+  height: 30px;
+}
+
+.search h2 {
+  color: #a8a8a8;
+  font-weight: normal;
+  font-size: 18px;
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 15px;
+}
+
+/*results
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------*/
+
+.results {
+  width: 1120px;
+  height: 1740px;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.results p {
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.fir {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+.sec {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+
+.thi {
+  position: absolute;
+  top: 378px;
+  right: 0;
+  cursor: pointer;
+}
+.fou {
+  position: absolute;
+  left: 0;
+  top: 720px;
+  cursor: pointer;
+}
+.fif {
+  position: absolute;
+  right: 382.5px;
+  top: 720px;
+  cursor: pointer;
+}
+.six {
+  position: absolute;
+  right: 0;
+  top: 720px;
+  cursor: pointer;
+}
+.sev {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+}
+.eig {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+/*
+modal
+
+
+
+.card_img {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+*/
+
+#modal_img {
+  width: 65vw;
+}
+
+.modal {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#bt_close {
+  color: #fff;
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  padding: 5px 10px;
+  font-size: 25px;
+  border: solid 1px #fff;
+}

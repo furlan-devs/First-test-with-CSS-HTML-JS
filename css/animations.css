@@ -1,0 +1,87 @@
+@keyframes up {
+  from {
+    opacity: 0;
+    transform: translateY(65px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes down {
+  from {
+    opacity: 0;
+    transform: translateY(-65px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes esq {
+  from {
+    opacity: 0;
+    transform: translateX(150px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes dir {
+  from {
+    opacity: 0;
+    transform: translateX(-150px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0.8;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animation-down {
+  animation-name: down;
+  animation-duration: 1s;
+  animation-fill-mode: backwards;
+}
+.eng,
+.arq,
+.e,
+.int {
+  animation-name: dir;
+  animation-duration: 1s;
+  animation-fill-mode: backwards;
+}
+
+.intro-about div,
+.intro-about div h2 {
+  animation-name: down;
+  animation-duration: 1s;
+  animation-fill-mode: backwards;
+}
+
+.about {
+  animation-name: esq;
+  animation-duration: 1s;
+  animation-fill-mode: backwards;
+}
+
+.intro {
+  animation-name: opacity;
+  animation-duration: 1s;
+  animation-fill-mode: backwards;
+}
